@@ -1,0 +1,8 @@
+
+Debug/*
+.vs/*
+doubleLink/Debug/*
+
+doubleLink/doubleLink.vcxproj.filters
+doubleLink/doubleLink.vcxproj.user
+doubleLink.sln
