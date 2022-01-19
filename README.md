@@ -251,3 +251,16 @@ https://github.com/mermaid-js/mermaid/blob/develop/README.zh-CN.md
 参考设计网站
 
 https://www.jianguoyun.com/p/Dfun4HUQlP2vCRiC7vwD
+
+
+
+
+
+# 如何提交代码到github：
+
+```
+git push git@git.zhlh6.cn:mooc-ui/embedddedArchitecture.git
+```
+
+![image-20220119102702932](D:\github_code\embedddedArchitecture\picture\image-20220119102702932.png)
+
