@@ -275,7 +275,7 @@ origin  https://hub.fastgit.org/mooc-ui/embedddedArchitecture.git (push)
 git push git@git.zhlh6.cn:mooc-ui/embedddedArchitecture.git
 ```
 
-![image-20220119102702932](D:\github_code\embedddedArchitecture\picture\image-20220119102702932.png)
+![image-20220119102702932](D:\github_code\embedddedArchitecture\picture\提交到github的地址.png)
 
 
 
@@ -315,3 +315,26 @@ git commit //将本地修改的地方提交到本地仓库
 git push -u git@github.com:mooc-ui/embedddedArchitecture.git //将本地仓库的代码同步到github上
 ```
 
+
+
+## 六、github上查看提交的历史记录
+
+![image-20220119111005340](D:\github_code\embedddedArchitecture\picture\github上提交的历史记录.png)
+
+
+
+## 七、查看github上某个节点的改动点
+
+![image-20220119111309964](D:\github_code\embedddedArchitecture\picture\github查看某个节点的改动.png)
+
+
+
+## 八、查看某个节点的提交commit
+
+![image-20220119111500334](D:\github_code\embedddedArchitecture\picture\节点commit信息.png)
+
+
+
+## 九、github上查找文件
+
+![image-20220119111706268](D:\github_code\embedddedArchitecture\picture\github查找文件.png)
