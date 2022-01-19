@@ -254,13 +254,54 @@ https://www.jianguoyun.com/p/Dfun4HUQlP2vCRiC7vwD
 
 
 
+# github的基本使用方法
+
+## 一、查看远程仓库
+
+```
+git remote -v  //执行这个指令
+//出现如下
+origin  https://hub.fastgit.org/mooc-ui/embedddedArchitecture.git (fetch)
+origin  https://hub.fastgit.org/mooc-ui/embedddedArchitecture.git (push)
 
 
-# 如何提交代码到github：
+```
+
+
+
+## 二、如何提交代码到github：
 
 ```
 git push git@git.zhlh6.cn:mooc-ui/embedddedArchitecture.git
 ```
 
 ![image-20220119102702932](D:\github_code\embedddedArchitecture\picture\image-20220119102702932.png)
+
+
+
+## 三、如何同步github上的代码到本地
+
+```
+方法1：
+git pull --rebase git@github.com:mooc-ui/embedddedArchitecture.git
+
+方法2：
+//http的地址会弹出你需要登录账号和密码的小框框，使用ssh的地址则不会
+git fetch git@github.com:mooc-ui/embedddedArchitecture.git //注意这个地址是ssh的地址，不是http的地址
+
+```
+
+
+
+## 四、http地址和ssh地址的区别
+
+正常我习惯使用ssh地址，这样的话可以免登录账号和密码，只需要配置一下token就行
+
+```
+http地址如下
+https://github.com/mooc-ui/embedddedArchitecture.git
+
+ssh地址如下：
+git@github.com:mooc-ui/embedddedArchitecture.git
+```
 
