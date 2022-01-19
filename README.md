@@ -305,3 +305,13 @@ ssh地址如下：
 git@github.com:mooc-ui/embedddedArchitecture.git
 ```
 
+
+
+## 五、本地代码提交到github
+
+```
+git add . //将本地所有改到的地方添加到暂存区
+git commit //将本地修改的地方提交到本地仓库
+git push -u git@github.com:mooc-ui/embedddedArchitecture.git //将本地仓库的代码同步到github上
+```
+
