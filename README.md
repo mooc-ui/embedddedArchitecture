@@ -364,3 +364,20 @@ git commit //将修改内容提交到本地
 git push git@git.zhlh6.cn:mooc-ui/embedddedArchitecture.git //将本地的提交同步到远程github仓库
 ```
 
+github端需要做的事情：同意另外一个分支的提交，这个过程相当于是一个pr的过程。在本地进行了该操作之后，igthub会出现如下情况
+
+### 1.出现pr请求
+
+![image-20220125105810824](D:\github_code\embedddedArchitecture\picture\pr1.png)
+
+### 2.是否同意pr请求
+
+![image-20220125105909794](D:\github_code\embedddedArchitecture\picture\pr2.png)
+
+### 3.同意merge
+
+![image-20220125105955866](D:\github_code\embedddedArchitecture\picture\pr3.png)
+
+### 4.merge成功
+
+![image-20220125110008281](D:\github_code\embedddedArchitecture\picture\pr4.png)
