@@ -353,3 +353,14 @@ git fetch origin branchname  //例如：git fetch origin doublelist
 
 ```
 
+## 十二、提交本地修改到远程指定分支
+
+```bash
+git branch -a //查看远程分支同步到本地的情况
+git checkout branch_name  //切换到你想要提交的分支
+git pull --rebase git@git.zhlh6.cn:mooc-ui/embedddedArchitecture.git //将本地节点和远程分支的节点同步，该过程可能会出现冲突文件，需要手动解决
+git stash apply stash_num //将本地修改的东西从stash里面弹出来
+git commit //将修改内容提交到本地
+git push git@git.zhlh6.cn:mooc-ui/embedddedArchitecture.git //将本地的提交同步到远程github仓库
+```
+
