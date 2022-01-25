@@ -338,3 +338,9 @@ git push -u git@github.com:mooc-ui/embedddedArchitecture.git //将本地仓库�
 ## 九、github上查找文件
 
 ![image-20220119111706268](D:\github_code\embedddedArchitecture\picture\github查找文件.png)
+
+
+
+## 十、github创建一个远程新分支
+
+![image-20220125100632368](D:\github_code\embedddedArchitecture\picture\github如何创建一个新分支.png)
