@@ -10,9 +10,15 @@ struct xLIST_ITEM List_Item1;
 struct xLIST_ITEM List_Item2;
 struct xLIST_ITEM List_Item3;
 
+typedef struct stEvtBuffer
+{
+    uint16_t	evt;//事件类型(对应一个注册函数)
+    void* payload;//对应注册函数的参数
+}stEvtBuffer_t;
+
 typedef struct qSportQueue {
     struct xLIST_ITEM currentNode;
-    void* payload;
+    void* buffer;//type is stEvtBuffer
 }qSportQueue_t;
 
 void delay_ms(uint32_t ms)

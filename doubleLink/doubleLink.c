@@ -81,3 +81,14 @@ UBaseType_t uxListRemove(ListItem_t* const pxItemToRemove)
 	/* 返回链表中剩余节点的个数 */
 	return pxList->uxNumberOfItems;
 }
+
+//判断链表是否为空
+
+//读取节点
+
+
+
+
+
+
+
