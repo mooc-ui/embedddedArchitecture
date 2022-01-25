@@ -344,3 +344,12 @@ git push -u git@github.com:mooc-ui/embedddedArchitecture.git //将本地仓库�
 ## 十、github创建一个远程新分支
 
 ![image-20220125100632368](D:\github_code\embedddedArchitecture\picture\github如何创建一个新分支.png)
+
+## 十一、同步远程github里面所有的远程分支
+
+```bash
+git remote add origin git@git.zhlh6.cn:mooc-ui/embedddedArchitecture.git
+git fetch origin branchname  //例如：git fetch origin doublelist
+
+```
+
