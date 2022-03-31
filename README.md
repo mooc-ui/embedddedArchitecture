@@ -381,3 +381,10 @@ github端需要做的事情：同意另外一个分支的提交，这个过程�
 ### 4.merge成功
 
 ![image-20220125110008281](D:\github_code\embedddedArchitecture\picture\pr4.png)
+
+
+
+### 5.测试图片
+
+![提交到github的地址](picture/提交到github的地址.png)
+
